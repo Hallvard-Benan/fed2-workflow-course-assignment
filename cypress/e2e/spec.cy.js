@@ -1,5 +1,5 @@
-describe("My First Test", () => {
-  it("Does not do much!", () => {
-    expect(true).to.equal(true);
+describe("user can login and access the profile", () => {
+  it("profile", () => {
+    cy.visit("https://develop-sindri.netlify.app/");
   });
 });
