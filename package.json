@@ -8,8 +8,10 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-      "test": "npm run test-e2e",
-    "test-e2e": "cypress open"
+     "test": "npm run test-e2e-cli",
+    "test-e2e": "cypress open",
+    "test-e2e-report": "cypress run --reporter mochawesome",
+    "test-e2e-cli": "cypress run"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
@@ -30,7 +32,7 @@
     "cypress": "^13.5.0",
     "eslint": "^8.45.0",
     "eslint-plugin-cypress": "^2.15.1",
-    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "postcss": "^8.4.31",
