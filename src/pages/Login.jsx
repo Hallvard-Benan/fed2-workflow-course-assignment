@@ -63,9 +63,9 @@ function LoginForm() {
 
   return (
     <>
-      <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8 align-middle">
+      <div className="flex flex-col justify-center flex-1 min-h-full px-6 py-12 align-middle lg:px-8">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
-          <h2 className="mt-10 text-center text-4xl font-bold leading-9 tracking-tight text-gray-900">
+          <h2 className="mt-10 text-4xl font-bold leading-9 tracking-tight text-center text-gray-900">
             LOGIN
           </h2>
         </div>
@@ -81,7 +81,7 @@ function LoginForm() {
               <div className="flex items-start">
                 <label
                   htmlFor="email"
-                  className="block text-l font-medium leading-6 text-gray-900"
+                  className="block font-medium leading-6 text-gray-900 text-l"
                 >
                   Email
                 </label>
@@ -94,6 +94,7 @@ function LoginForm() {
                   type="email"
                   autoComplete="email"
                   required
+                  defaultValue="first.last@stud.noroff.no"
                   className="block w-full rounded-md border-2 border-gray-300 py-2.5 text-start text-gray-900 shadow-sm ring-2 ring-gray-300 placeholder:text-gray-600 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
               </div>
@@ -103,7 +104,7 @@ function LoginForm() {
               <div className="flex items-center justify-between">
                 <label
                   htmlFor="password"
-                  className="block text-l font-medium leading-6 text-gray-900"
+                  className="block font-medium leading-6 text-gray-900 text-l"
                 >
                   Password
                 </label>
@@ -133,16 +134,16 @@ function LoginForm() {
             <div className="flex justify-center w-full w-86">
               <button
                 type="submit"
-                className="flex w-full justify-center w-86 rounded-md bg-blue-300 px-3 py-4 text-lg font-bold leading-6 text-white shadow-sm hover:from-green-800 hover:to-green-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-200"
+                className="flex justify-center w-full px-3 py-4 text-lg font-bold leading-6 text-white bg-blue-300 rounded-md shadow-sm w-86 hover:from-green-800 hover:to-green-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-200"
               >
                 Login
               </button>
             </div>
 
-            <div className="flex justify-center w-full w-86 mt-4">
+            <div className="flex justify-center w-full mt-4 w-86">
               <Link
                 to="/register"
-                className="flex w-full justify-center w-86 rounded-md bg-green-400 px-3 py-4 text-lg font-bold leading-6 text-white shadow-sm hover:from-green-800 hover:to-green-700 focus-visible:outline focus-visible:outline-2 text-center focus-visible:outline-offset-2 focus-visible:outline-blue-200"
+                className="flex justify-center w-full px-3 py-4 text-lg font-bold leading-6 text-center text-white bg-green-400 rounded-md shadow-sm w-86 hover:from-green-800 hover:to-green-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-200"
               >
                 Register
               </Link>
