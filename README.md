@@ -7,6 +7,14 @@
 
 [![Unit Tests](https://github.com/Hallvard-Benan/fed2-workflow-course-assignment/actions/workflows/unit-testing.js.yml/badge.svg?branch=workflow)](https://github.com/Hallvard-Benan/fed2-workflow-course-assignment/actions/workflows/unit-testing.js.yml)
 
+## Updates
+
+Integrated testing, with Cypress end-to-end-testing and Vitest for Unit-tests.
+
+Commands to run the tests:
+-Vitest: npx vitest run
+-Cypress: npx cypress run
+
 ## Report
 
 Group:
@@ -18,7 +26,7 @@ Writing unit tests with Vitest required a lot of troubleshooting, in order to de
 After many failed attempts, a lot of troubleshooting, and getting some help, we eventually figured out how to run the tests successfully.
 Throughout the assignment, we worked together at school, collaborating on most of the steps.
 
-Unit tests are written using Vitest with @testing-liberary/react. The following tests are covered:
+Unit tests are written using Vitest with @testing-library/react. The following tests are covered:
 Login function fetches and stores a token in browser storage.
 Logout function clears token from local storage.
 
