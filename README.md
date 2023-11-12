@@ -3,6 +3,10 @@
 
 # React + Vite
 
+[![Cypress Tests](https://github.com/Hallvard-Benan/fed2-workflow-course-assignment/actions/workflows/e2e-testing.js.yml/badge.svg?branch=workflow)](https://github.com/Hallvard-Benan/fed2-workflow-course-assignment/actions/workflows/e2e-testing.js.yml)
+
+[![Unit Tests](https://github.com/Hallvard-Benan/fed2-workflow-course-assignment/actions/workflows/unit-testing.js.yml/badge.svg?branch=workflow)](https://github.com/Hallvard-Benan/fed2-workflow-course-assignment/actions/workflows/unit-testing.js.yml)
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
