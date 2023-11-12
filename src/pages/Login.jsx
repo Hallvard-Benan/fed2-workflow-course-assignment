@@ -94,7 +94,7 @@ function LoginForm() {
                   type="email"
                   autoComplete="email"
                   required
-                  defaultValue="first.last@stud.noroff.no"
+                  // defaultValue="first.last@stud.noroff.no"
                   className="block w-full rounded-md border-2 border-gray-300 py-2.5 text-start text-gray-900 shadow-sm ring-2 ring-gray-300 placeholder:text-gray-600 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
               </div>
@@ -125,7 +125,7 @@ function LoginForm() {
                   placeholder="PASSWORD"
                   autoComplete="current-password"
                   required
-                  defaultValue="UzI1NiIsInR5cCI"
+                  // defaultValue="UzI1NiIsInR5cCI"
                   className="block w-full rounded-md border-2 border-gray-300 py-2.5 text-gray-900 shadow-sm ring-2 ring-gray-300 placeholder:text-gray-700 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
               </div>
@@ -133,6 +133,7 @@ function LoginForm() {
 
             <div className="flex justify-center w-full w-86">
               <button
+                data-test="login-btn"
                 type="submit"
                 className="flex justify-center w-full px-3 py-4 text-lg font-bold leading-6 text-white bg-blue-300 rounded-md shadow-sm w-86 hover:from-green-800 hover:to-green-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-200"
               >

@@ -130,10 +130,6 @@ export default function Post({
     </form>
   ) : (
     <div className={`feed-post ${isDeleted ? "inactive" : ""}`} key={key}>
-      <form>
-        <label htmlFor="email">email</label>
-        <input type="text" name="email" id="email" />
-      </form>
       <Link className="post-link" to={"posts/" + href}>
         <div className="post__img-container">
           {image ? (
