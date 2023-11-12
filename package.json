@@ -12,6 +12,7 @@
     "test-e2e": "cypress open",
     "test:unit": "vitest run",
     "test:ui": "vitest --ui",
+    "cy:run": "cypress run",
     "test:watch": "vitest"
   },
   "dependencies": {
